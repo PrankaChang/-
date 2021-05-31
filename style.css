@@ -1,0 +1,201 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*--------cssRest end----------*/
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  line-height: 36px;
+  font-size: 24px;
+}
+h1 {
+  font-size: 80px;
+  line-height: 94px;
+  border-bottom: 2px solid black;
+}
+h1 span {
+  width: 264px;
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 43px;
+  border-bottom: 1px solid black;
+}
+
+h2 span {
+  color: #a00404;
+  font-size: 24px;
+}
+
+p {
+  margin: 16px 0;
+}
+
+.contentCenter {
+  margin: 0 auto;
+  width: 1200px;
+  padding: 47px 0;
+}
+
+.bgBlueBlock {
+  background-color: #415165;
+  color: white;
+
+  text-align: center;
+}
+.bgBlueBlock h2 span {
+  color: white;
+}
+.bgBlueBlock h2 {
+  border-color: white;
+}
+
+.divLeftBorder {
+  text-align: left;
+  border-left: 1px solid #96a9c4;
+  padding-left: 28px;
+}
+
+.fontSize20 {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.contentPicBox img {
+  margin-right: 24px;
+}
+
+#mugShot {
+  margin: 48px 0;
+}
+#contentSkill {
+  margin-left: auto;
+  width: 680px;
+}
