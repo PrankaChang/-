@@ -1,0 +1,234 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+h1 {
+  font-size: 80px;
+  font-weight: bold;
+  border-bottom: 2px solid #000000;
+  padding-bottom: 17px;
+  margin-bottom: 48px;
+}
+
+h2 {
+  font-size: 32px;
+  padding-bottom: 8px;
+  margin-bottom: 16px;
+}
+h2 span {
+  font-size: 24px;
+  color: #a00404;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+ul li {
+  margin-bottom: 24px;
+  font-size: 24px;
+}
+
+.borderBottom_b {
+  border-bottom: 1px solid #000000;
+}
+
+.borderBottom_w {
+  border-bottom: 1px solid #ffffff;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.borderBottom_w span {
+  color: #ffffff;
+}
+
+.borderLeft {
+  border-left: 1px solid #96a9c4;
+  padding-left: 24px;
+}
+
+.contentCenter {
+  width: 1024px;
+  margin: 0 auto;
+  padding-top: 47px;
+}
+.contentCenter .title img {
+  margin-bottom: 48px;
+}
+
+.bgBlueBlock {
+  background-color: #415165;
+  color: #ffffff;
+}
+.bgBlueBlock .bgBlueBlock-content {
+  width: 996px;
+  margin: 0 auto;
+  padding-top: 24px;
+  padding-bottom: 36px;
+}
+.bgBlueBlock .bgBlueBlock-content .skill ul {
+  margin: 0 auto;
+  width: 200px;
+  font-size: 24px;
+}
+.bgBlueBlock .bgBlueBlock-content .contact {
+  text-align: center;
+}
+.bgBlueBlock .bgBlueBlock-content .contact li a {
+  display: inline;
+  color: #ffffff;
+  text-decoration: none;
+}
+.bgBlueBlock .bgBlueBlock-content .contact li a:hover {
+  color: #96a9c4;
+}
+.bgBlueBlock .bgBlueBlock-content .contact li a img {
+  margin: 0 24px;
+}
+
+.experience {
+  padding: 0 24px;
+}
+.experience ul img {
+  margin: 8px 0;
+}
+
+.mb-72 {
+  margin-bottom: 72px;
+}
